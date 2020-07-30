@@ -1,0 +1,37 @@
+- Qu'est ce que GNU :
+Ensemble de logiciel libre développé parla communauté sous license GPL. Mais souvent systeme d'exploitation GNU(OS)/Linux(Kernel) Debian
+Composé de Gnome ou GNU-GCC par exemple
+Busybox ne fait aps partie de gnu.
+
+- Qu'est ce qu'un logiciel embarqué :
+C'est un logiciel conçu spécifiquement pour un matériel précis. Souvent soumis à de forte contrainte et perturbation exterieur.
+il doit être autonomne fiable et maintenanble
+
+- Qu'est ce qu'un systeme embarqué :
+systeme electronique développé composé d'un système d'exploitation répondant à des besoins et des services précis précis et aux ressources matérielles précises
+
+- avantage d'utiliser un OS :
+Abstraction de la couche bas niveau d'ecriture sur les périphériques. Pour les bus peut être très fastidieu.
+si l'usage est général, on peut hériter des protocoles classiques sur des OS normaux.
+
+- Inconvenient :
+La taille mémoire. Une image est de plusieurs GO.
+
+- Semaphore : 
+Mecanisme pour bloquer l'utilisation d'une ressource à une tache. Permet le partage.
+
+- Difference systeme temps partagé et temps réel :
+ Temps partagé : comme Linux. Partage equitable des ressources enre tache. MMU memoire virtuel donc on ne sait pas combiend e temps prend l'adressage.
+	Complexité de l'ordonnanceur.
+ Temps réel :
+
+- MMU :
+
+-Memoire virtuel : 
+	Disposer d'une quantité supérieur de mémoire vive réellement disponible.
+
+- 3 contraintes temps réel dur :
+	_ Logique : Les memes entrées doivent produire les memes effets
+	_ Temporel : Tache doit etre executer dans un delai imparti
+	_ Fiabilité : Systeme doit être disponible car les interventions humaines sont compliqués
+	
